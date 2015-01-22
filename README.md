@@ -141,10 +141,6 @@ To add custom MySQL configuration, drop additional files into
 
 The MySQL root password.  Puppet will attempt to set the root password and update `/root/.my.cnf` with it.
 
-#####`old_root_password`
-
-The previous root password (**REQUIRED** if you wish to change the root password via Puppet.)
-
 #####`override_options`
 
 The hash of override options to pass into MySQL.  It can be structured
